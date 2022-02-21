@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using StudyTasks;
+using StudyTasks.DAL;
 
 namespace StudyTasks
 {
@@ -25,6 +27,8 @@ namespace StudyTasks
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddSingleton<IProvideStudyTasks, StudyTasksProvider>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

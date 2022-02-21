@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyTasks", "StudyTasks\StudyTasks.csproj", "{CA5DA047-4A4F-45FA-B816-F65D86729AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudyTasks", "StudyTasks\StudyTasks.csproj", "{CA5DA047-4A4F-45FA-B816-F65D86729AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseUtiliies", "DatabaseUtiliies\DatabaseUtiliies.csproj", "{4AA39546-AF25-476C-8F8A-D6037BEAEC7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CA5DA047-4A4F-45FA-B816-F65D86729AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA5DA047-4A4F-45FA-B816-F65D86729AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA5DA047-4A4F-45FA-B816-F65D86729AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA39546-AF25-476C-8F8A-D6037BEAEC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA39546-AF25-476C-8F8A-D6037BEAEC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA39546-AF25-476C-8F8A-D6037BEAEC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA39546-AF25-476C-8F8A-D6037BEAEC7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
