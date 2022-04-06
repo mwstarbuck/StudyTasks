@@ -16,12 +16,11 @@ namespace DatabaseUtiliies
     { 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+   
             StandardKernel kernel = new StandardKernel();
             kernel.Load(Assembly.GetCallingAssembly());
 
             InsertVocabulary(kernel);
-
 
         }
 
@@ -30,6 +29,7 @@ namespace DatabaseUtiliies
             string filePath = @"D:\Data\Level2_Words.xlsx";
             FileInfo file = new FileInfo(filePath);
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+
             using (ExcelPackage excelPackage = new ExcelPackage(file))
             {
                 ExcelWorksheet sheet = excelPackage.Workbook.Worksheets[0];
