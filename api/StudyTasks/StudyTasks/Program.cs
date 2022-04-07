@@ -13,6 +13,7 @@ namespace StudyTasks
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hello");
             CreateHostBuilder(args).Build().Run();
         }
 
